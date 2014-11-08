@@ -22,6 +22,13 @@ function contact_form(){
     '#required' => TRUE,
   );
 
+  $form['email'] = array(
+
+    '#title' => t('Your E-Mail'),
+    '#type' => 'textfield',
+    '#required' => TRUE,
+  )
+
 return $form;
 
 }
