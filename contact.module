@@ -10,6 +10,16 @@ $items = array(
  'type' => MENU_NORMAL_ITEM,
 );
 
+$items = array(
+
+ 'title' => 'Contact Form',
+ 'description' => 'A great Contact Form',
+ 'page callback' => 'drupal_get_form',
+ 'page arguments' => array('contact_form'),
+ 'access arguments' => array('access content'),
+ 'type' => MENU_NORMAL_ITEM,
+);
+
 return $items;
 }
 
